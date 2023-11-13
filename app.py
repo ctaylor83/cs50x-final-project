@@ -54,5 +54,25 @@ def delete_item(item_id):
 
     return 'Item deleted successfully!'
 
+@app.route('/create_project')
+def create_project():
+    # Logic to display project creation form
+    return 'Project creation page'
+
+@app.route('/projects')
+def view_projects():
+    # Logic to display existing projects
+    return 'Projects listing page'
+
+@app.route('/inventory')
+def view_inventory():
+    # Logic to display inventory items
+    return 'Inventory listing page'
+
+@app.route('/manage_inventory')
+def manage_inventory():
+    # Logic to add, update, or delete inventory items
+    return 'Inventory management page'
+
 if __name__ == '__main__':
     app.run(debug=True)
