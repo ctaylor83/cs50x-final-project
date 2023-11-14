@@ -1,5 +1,5 @@
 # CS50x PICO Survival Server
-#### Video Demo:  <URL HERE>
+#### Video Demo:  https://youtu.be/1l2FOSuhlVY
 #### Description: A self contained web server for outdoor activities!
 
 This project features a simple chat and Morse code server running on the Raspberry Pi Pico. It uses MicroPython and the `phew` web framework to provide a web-based interface for sending and viewing chat messages and converting text to Morse code signals using the Pico's LED.
